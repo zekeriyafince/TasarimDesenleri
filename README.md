@@ -12,3 +12,18 @@ Tasarım Desenleri kategorileri ve kodları aşağıdadır.
   2) Uretilen instance dısarıya Singleton tipinde "public static" bir metod ile verilir.
 - **Kullanım Ornekleri**
   1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/singleton)
+  
+#### Factory Method(Fabrika Yordam) Tasarım Deseni
+- **AMAC:** Kalıtımsal iliskili olan (nesne)urunlerin uretilmesi icin kullanılır. 
+   Factory metod'un gorevi client'in istegi olan urunlerin olusturulmasını
+   saglar.
+- Factory Method'un kullanılmasında 2 yöntem vardır:
+   1) Tek class icindeki factory metod yardımıyla ilgili sınıfların ürünlerin uretilmesi
+      sağlanır.
+   2) Her urun icin ayrı sınıf tanımlanmasi ile urunleri üretilmesi sağlanır.
+  
+- **Kullanım Ornekleri**
+  1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/factorymethod)
+
+
+        
