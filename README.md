@@ -24,6 +24,24 @@ Tasarım Desenleri kategorileri ve kodları aşağıdadır.
   
 - **Kullanım Ornekleri**
   1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/factorymethod)
+  
+#### Abstract Factory(Soyut Fabrika) Tasarım Deseni
+- **AMAC:** Birbirleriyle ilgili ya da bağımlı nesne ailelerini, nesnelerin somut sınıflarını 
+   belirtmeden yaratmak için bir arayüz sağlamak. 
+
+[Factory Method](https://github.com/zekeriyafince/TasarimDesenleri#factory-methodfabrika-yordam-tasar%C4%B1m-deseni)’da 
+tek bir ürün ailesine ait tek bir arayüz mevcutken,Abstract Factory’de farklı ürün aileleri 
+için farklı arayüzler mevcuttur.
+- Abstract Factory'nin kullanılmasındaki yöntem :
+   1) İstemci ihtiyacı olan ve birbirleri aralarında iliskileri bulan
+    nesnelerin üretiminden sorumlu olan soyut fabrikalarin tasarlanmasini 
+    saglar. İstemciler üretilecek nesnelerin tiplerine gore farklı
+    fabrikalari secip kullanabilirler. Bu nesneler ve iliskiler abstract
+    seviyede gerceklestirilerek client'dan soyutlanmıstır.
+    
+- **Kullanım Ornekleri**
+  1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/abstractfactory)
+
 
 
         
