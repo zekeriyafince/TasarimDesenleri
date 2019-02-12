@@ -42,6 +42,17 @@ için farklı arayüzler mevcuttur.
 - **Kullanım Ornekleri**
   1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/abstractfactory)
 
+#### Prototype(Prototip) Tasarım Deseni
+- **AMAC:** Üretilen nesnenin çok kaynak tüketmesi durumunun engellenmesini sağlamaktır. 
+
+Projede nesnemizi birden fazla oluşturmamız gerektiğinde normalde “new” operatörü ile oluşturmak yerine bir tane oluşturduğumuz nesnemizin klonunu oluşturmamızı sağlayan ve bunlara yeni özellikler eklenerek kullanılmasını sağlayan bir tasarım desenidir.
+
+- Prototype'ın kullanılmasındaki yöntem :
+   1) Maliyeti yüksek olan nesnelerin üretilmesi için soyut üst sınıf(Prototype Sınıf) kullanılır. Alt sınıfların hepsinde geçerli
+   Clone metodu doldurularak nesnelerin kopyalarının alınması sağlanır. Client Prototype sınıf tipini kullanarak maliyetsiz nesne 
+   tipi olusturmaya çalışılır.
+- **Kullanım Ornekleri**
+  1) [Java Kod](https://github.com/zekeriyafince/TasarimDesenleri/tree/master/prototype)
 
 
         
